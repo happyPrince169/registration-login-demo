@@ -40,12 +40,4 @@ public class User {
                     @JoinColumn(name = "ROLE_ID", referencedColumnName = "ID") })
     private List<Role> roles = new ArrayList<>();
 
-    public List<Role> getRoles() {
-        return this.roles;
-    }
-
-    public void setRoles(List<Role> roles) {
-        this.roles = roles;
-    }
-
 }
